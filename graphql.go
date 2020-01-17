@@ -107,6 +107,9 @@ type errors []struct {
 		Line   int
 		Column int
 	}
+	Extensions struct {
+		Code string
+	}
 }
 
 // Error implements error interface.
